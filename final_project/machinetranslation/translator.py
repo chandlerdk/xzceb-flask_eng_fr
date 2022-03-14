@@ -23,10 +23,8 @@ language_translator.set_service_url(url_lt)
 def main():
     """main function"""
 
-    english_text = 'Hello'
-    english_to_french(english_text)
-    french_text = 'bonjour'
-    french_to_english(french_text)
+    english_to_french()
+    french_to_english()
 
 def english_to_french(english_text):    
     """This function translates english to french."""
